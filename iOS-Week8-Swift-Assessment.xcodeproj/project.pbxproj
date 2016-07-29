@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1B4B0D971D4A615F00AB1617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0D961D4A615F00AB1617 /* AppDelegate.swift */; };
-		1B4B0D991D4A615F00AB1617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0D981D4A615F00AB1617 /* ViewController.swift */; };
-		1B4B0D9C1D4A615F00AB1617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0D9A1D4A615F00AB1617 /* Main.storyboard */; };
 		1B4B0D9E1D4A615F00AB1617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */; };
 		1B4B0DA11D4A615F00AB1617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */; };
+		1B4B0DAD1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */; };
+		1B4B0DAF1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0DAE1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard */; };
+		1B4B0DB11D4A8F5600AB1617 /* InternetStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */; };
+		1B4B0DB31D4A8F8100AB1617 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */; };
+		1B4B0DB51D4A8F9100AB1617 /* ViewsInCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */; };
+		1B4B0DB71D4A8FAF00AB1617 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */; };
 		62F84499560688D510D30B55 /* Pods_iOS_Week8_Swift_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +23,15 @@
 		152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Week8_Swift_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4B0D931D4A615F00AB1617 /* iOS-Week8-Swift-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Week8-Swift-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4B0D961D4A615F00AB1617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B4B0D981D4A615F00AB1617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B4B0D9B1D4A615F00AB1617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B4B0DA01D4A615F00AB1617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B4B0DA21D4A615F00AB1617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimationStoryboard.storyboard; sourceTree = "<group>"; };
+		1B4B0DAE1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewsInCodeStoryboard.storyboard; sourceTree = "<group>"; };
+		1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InternetStoryboard.storyboard; sourceTree = "<group>"; };
+		1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsInCodeViewController.swift; sourceTree = "<group>"; };
+		1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		2A3CECB72B8E0B726F374D6F /* Pods-iOS-Week8-Swift-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		313BFEFADF4203789A8A4396 /* Pods-iOS-Week8-Swift-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,12 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				1B4B0D961D4A615F00AB1617 /* AppDelegate.swift */,
-				1B4B0D981D4A615F00AB1617 /* ViewController.swift */,
 				1B4B0DA81D4A638100AB1617 /* 1. Animations */,
 				1B4B0DA91D4A638B00AB1617 /* 2. Views in Code */,
 				1B4B0DAA1D4A63C400AB1617 /* 3. Internet */,
 				1B4B0DAB1D4A643F00AB1617 /* 4. Optionals */,
-				1B4B0D9A1D4A615F00AB1617 /* Main.storyboard */,
 				1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */,
 				1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */,
 				1B4B0DA21D4A615F00AB1617 /* Info.plist */,
@@ -78,6 +84,8 @@
 		1B4B0DA81D4A638100AB1617 /* 1. Animations */ = {
 			isa = PBXGroup;
 			children = (
+				1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */,
+				1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */,
 			);
 			name = "1. Animations";
 			sourceTree = "<group>";
@@ -85,6 +93,8 @@
 		1B4B0DA91D4A638B00AB1617 /* 2. Views in Code */ = {
 			isa = PBXGroup;
 			children = (
+				1B4B0DAE1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard */,
+				1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */,
 			);
 			name = "2. Views in Code";
 			sourceTree = "<group>";
@@ -92,6 +102,8 @@
 		1B4B0DAA1D4A63C400AB1617 /* 3. Internet */ = {
 			isa = PBXGroup;
 			children = (
+				1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */,
+				1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */,
 			);
 			name = "3. Internet";
 			sourceTree = "<group>";
@@ -182,8 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4B0DA11D4A615F00AB1617 /* LaunchScreen.storyboard in Resources */,
+				1B4B0DAF1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard in Resources */,
+				1B4B0DB11D4A8F5600AB1617 /* InternetStoryboard.storyboard in Resources */,
 				1B4B0D9E1D4A615F00AB1617 /* Assets.xcassets in Resources */,
-				1B4B0D9C1D4A615F00AB1617 /* Main.storyboard in Resources */,
+				1B4B0DAD1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,22 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4B0D991D4A615F00AB1617 /* ViewController.swift in Sources */,
+				1B4B0DB31D4A8F8100AB1617 /* AnimationViewController.swift in Sources */,
+				1B4B0DB51D4A8F9100AB1617 /* ViewsInCodeViewController.swift in Sources */,
 				1B4B0D971D4A615F00AB1617 /* AppDelegate.swift in Sources */,
+				1B4B0DB71D4A8FAF00AB1617 /* InternetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1B4B0D9A1D4A615F00AB1617 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B4B0D9B1D4A615F00AB1617 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

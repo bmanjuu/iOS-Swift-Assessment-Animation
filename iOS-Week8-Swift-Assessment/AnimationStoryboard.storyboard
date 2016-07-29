@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K3y-BH-yCV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Animation View Controller-->
+        <scene sceneID="nAt-3b-gU0">
+            <objects>
+                <viewController id="K3y-BH-yCV" customClass="AnimationViewController" customModule="iOS_Week8_Swift_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="avr-zs-Ln8"/>
+                        <viewControllerLayoutGuide type="bottom" id="VMb-ez-azj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tJK-3q-Nj3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xgQ-GN-29i">
+                                <rect key="frame" x="0.0" y="0.0" width="175" height="128"/>
+                                <color key="backgroundColor" red="0.53160025504568342" green="0.90781269155227295" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCw-XQ-cKX">
+                                <rect key="frame" x="153" y="319" width="69" height="30"/>
+                                <state key="normal" title="ANIMATE!">
+                                    <color key="titleColor" red="1" green="0.52185602929999997" blue="0.66261354029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="animate:" destination="K3y-BH-yCV" eventType="touchUpInside" id="bNj-9z-8sA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RCw-XQ-cKX" firstAttribute="centerY" secondItem="tJK-3q-Nj3" secondAttribute="centerY" id="G1g-rU-TEV"/>
+                            <constraint firstItem="RCw-XQ-cKX" firstAttribute="centerX" secondItem="tJK-3q-Nj3" secondAttribute="centerX" id="zlg-MC-J0v"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="testView" destination="xgQ-GN-29i" id="Sc3-2N-v4d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3MU-pZ-IBx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205.5" y="434.5"/>
+        </scene>
+    </scenes>
+</document>
