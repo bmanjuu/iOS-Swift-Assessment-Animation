@@ -70,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				1B4B0D961D4A615F00AB1617 /* AppDelegate.swift */,
-				1B4B0DA81D4A638100AB1617 /* 1. Animations */,
-				1B4B0DA91D4A638B00AB1617 /* 2. Views in Code */,
+				1B4B0DA91D4A638B00AB1617 /* 1. Views in Code */,
+				1B4B0DA81D4A638100AB1617 /* 2. Animations */,
 				1B4B0DAA1D4A63C400AB1617 /* 3. Internet */,
 				1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */,
 				1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */,
@@ -80,22 +80,22 @@
 			path = "iOS-Week8-Swift-Assessment";
 			sourceTree = "<group>";
 		};
-		1B4B0DA81D4A638100AB1617 /* 1. Animations */ = {
+		1B4B0DA81D4A638100AB1617 /* 2. Animations */ = {
 			isa = PBXGroup;
 			children = (
 				1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */,
 				1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */,
 			);
-			name = "1. Animations";
+			name = "2. Animations";
 			sourceTree = "<group>";
 		};
-		1B4B0DA91D4A638B00AB1617 /* 2. Views in Code */ = {
+		1B4B0DA91D4A638B00AB1617 /* 1. Views in Code */ = {
 			isa = PBXGroup;
 			children = (
 				1B4B0DAE1D4A8F4200AB1617 /* ViewsInCodeStoryboard.storyboard */,
 				1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */,
 			);
-			name = "2. Views in Code";
+			name = "1. Views in Code";
 			sourceTree = "<group>";
 		};
 		1B4B0DAA1D4A63C400AB1617 /* 3. Internet */ = {

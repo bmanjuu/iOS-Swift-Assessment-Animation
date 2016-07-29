@@ -1,12 +1,21 @@
 # ios-week8-assessment
 Companion project for the iOS end of lecture assessment. 
-Form lives here: https://docs.google.com/a/flatironschool.com/forms/d/1lzQ5BSyZItIptAnna6Azi4juLtblR59Iv9DUjz1EZ08/viewform
+Form lives here: 
 
-###Topics Covered
+##Instructions
+###Views In Code
+* Create a view programatically.
+* Give it a light grey background color.
+* Set the constraints to:
+	* Height - half the height of the view
+	* 20 pts from the top
+	* 20 pts from left and right
 
-- Custom delegates
-- Animation (UIView animateWithDuration:)
-- Views in code 
-- Internet (making a GET request)
-- Blocks (completion)
-- Concurrency (NSOperationQueue)
+###Animation
+* When the `ANIMATE!` button is pressed the blue square should move to the bottom right.
+* We've already removed the constraints and set it up programatically. 
+
+
+###Internet
+* Make a get request from the given URL.
+* 
