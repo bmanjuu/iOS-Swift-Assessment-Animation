@@ -42,7 +42,7 @@ class AnimationViewController: UIViewController {
         testViewLeft = testView.leftAnchor.constraintEqualToAnchor(view.leftAnchor)
         testViewLeft.active = true
         
-        testView.heightAnchor.constraintEqualToConstant(2000).active = true
+        testView.heightAnchor.constraintEqualToConstant(200).active = true
         testView.widthAnchor.constraintEqualToAnchor(testView.heightAnchor).active = true
 
     }

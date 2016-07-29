@@ -15,7 +15,7 @@
 		1B4B0DB11D4A8F5600AB1617 /* InternetStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */; };
 		1B4B0DB31D4A8F8100AB1617 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */; };
 		1B4B0DB51D4A8F9100AB1617 /* ViewsInCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */; };
-		1B4B0DB71D4A8FAF00AB1617 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */; };
+		1B4B0DB71D4A8FAF00AB1617 /* InternetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB61D4A8FAF00AB1617 /* InternetsViewController.swift */; };
 		62F84499560688D510D30B55 /* Pods_iOS_Week8_Swift_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InternetStoryboard.storyboard; sourceTree = "<group>"; };
 		1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		1B4B0DB41D4A8F9100AB1617 /* ViewsInCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsInCodeViewController.swift; sourceTree = "<group>"; };
-		1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		1B4B0DB61D4A8FAF00AB1617 /* InternetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetsViewController.swift; sourceTree = "<group>"; };
 		2A3CECB72B8E0B726F374D6F /* Pods-iOS-Week8-Swift-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		313BFEFADF4203789A8A4396 /* Pods-iOS-Week8-Swift-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,6 @@
 				1B4B0DA81D4A638100AB1617 /* 1. Animations */,
 				1B4B0DA91D4A638B00AB1617 /* 2. Views in Code */,
 				1B4B0DAA1D4A63C400AB1617 /* 3. Internet */,
-				1B4B0DAB1D4A643F00AB1617 /* 4. Optionals */,
 				1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */,
 				1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */,
 				1B4B0DA21D4A615F00AB1617 /* Info.plist */,
@@ -103,16 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				1B4B0DB01D4A8F5600AB1617 /* InternetStoryboard.storyboard */,
-				1B4B0DB61D4A8FAF00AB1617 /* InternetViewController.swift */,
+				1B4B0DB61D4A8FAF00AB1617 /* InternetsViewController.swift */,
 			);
 			name = "3. Internet";
-			sourceTree = "<group>";
-		};
-		1B4B0DAB1D4A643F00AB1617 /* 4. Optionals */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "4. Optionals";
 			sourceTree = "<group>";
 		};
 		3174B631186F8C2C5D17A491 /* Frameworks */ = {
@@ -259,7 +251,7 @@
 				1B4B0DB31D4A8F8100AB1617 /* AnimationViewController.swift in Sources */,
 				1B4B0DB51D4A8F9100AB1617 /* ViewsInCodeViewController.swift in Sources */,
 				1B4B0D971D4A615F00AB1617 /* AppDelegate.swift in Sources */,
-				1B4B0DB71D4A8FAF00AB1617 /* InternetViewController.swift in Sources */,
+				1B4B0DB71D4A8FAF00AB1617 /* InternetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,11 +16,14 @@ class ViewsInCodeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+    /*
+     1. Programmatically put a UIView on screen
+     2. Give it a background color so we can see it
+     3. Constrain it to be:
+     - half the height of the screen
+     - 20 points from the top
+     - 20 points from both sides
+     */
 
     /*
     // MARK: - Navigation
