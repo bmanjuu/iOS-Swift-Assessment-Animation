@@ -12,11 +12,9 @@
 		1B4B0DA11D4A615F00AB1617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0D9F1D4A615F00AB1617 /* LaunchScreen.storyboard */; };
 		1B4B0DAD1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */; };
 		1B4B0DB31D4A8F8100AB1617 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */; };
-		62F84499560688D510D30B55 /* Pods_iOS_Week8_Swift_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Week8_Swift_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4B0D931D4A615F00AB1617 /* iOS-Week8-Swift-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Week8-Swift-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4B0D961D4A615F00AB1617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4B0D9D1D4A615F00AB1617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,8 +22,6 @@
 		1B4B0DA21D4A615F00AB1617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4B0DAC1D4A8F2B00AB1617 /* AnimationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimationStoryboard.storyboard; sourceTree = "<group>"; };
 		1B4B0DB21D4A8F8100AB1617 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
-		2A3CECB72B8E0B726F374D6F /* Pods-iOS-Week8-Swift-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.release.xcconfig"; sourceTree = "<group>"; };
-		313BFEFADF4203789A8A4396 /* Pods-iOS-Week8-Swift-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F84499560688D510D30B55 /* Pods_iOS_Week8_Swift_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +40,6 @@
 			children = (
 				1B4B0D951D4A615F00AB1617 /* iOS-Week8-Swift-Assessment */,
 				1B4B0D941D4A615F00AB1617 /* Products */,
-				D783A6CA39F84A92761FEE92 /* Pods */,
-				3174B631186F8C2C5D17A491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,23 +64,6 @@
 			path = "iOS-Week8-Swift-Assessment";
 			sourceTree = "<group>";
 		};
-		3174B631186F8C2C5D17A491 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				152289E26C9658FB6003AC25 /* Pods_iOS_Week8_Swift_Assessment.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D783A6CA39F84A92761FEE92 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				313BFEFADF4203789A8A4396 /* Pods-iOS-Week8-Swift-Assessment.debug.xcconfig */,
-				2A3CECB72B8E0B726F374D6F /* Pods-iOS-Week8-Swift-Assessment.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,12 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B4B0DA51D4A615F00AB1617 /* Build configuration list for PBXNativeTarget "iOS-Week8-Swift-Assessment" */;
 			buildPhases = (
-				AB2FAF0CBAFEF6E3A883505D /* 📦 Check Pods Manifest.lock */,
 				1B4B0D8F1D4A615F00AB1617 /* Sources */,
 				1B4B0D901D4A615F00AB1617 /* Frameworks */,
 				1B4B0D911D4A615F00AB1617 /* Resources */,
-				C887ADEBF00617BBD4779C62 /* 📦 Embed Pods Frameworks */,
-				ED07345FBCB3DFAA0C3F640F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,54 +129,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		AB2FAF0CBAFEF6E3A883505D /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C887ADEBF00617BBD4779C62 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED07345FBCB3DFAA0C3F640F /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Week8-Swift-Assessment/Pods-iOS-Week8-Swift-Assessment-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B4B0D8F1D4A615F00AB1617 /* Sources */ = {
@@ -314,7 +239,6 @@
 		};
 		1B4B0DA61D4A615F00AB1617 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 313BFEFADF4203789A8A4396 /* Pods-iOS-Week8-Swift-Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS-Week8-Swift-Assessment/Info.plist";
@@ -326,7 +250,6 @@
 		};
 		1B4B0DA71D4A615F00AB1617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A3CECB72B8E0B726F374D6F /* Pods-iOS-Week8-Swift-Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS-Week8-Swift-Assessment/Info.plist";

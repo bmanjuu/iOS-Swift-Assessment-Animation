@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import OHHTTPStubs
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,31 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        let urlString = "https://flatironAssessment.week8.com/weatherInfo"
-        OHHTTPStubs.stubRequestsPassingTest({ (request) -> Bool in
-            
-            return request.URL?.absoluteString == urlString
-            
-            }) { (request) -> OHHTTPStubsResponse in
-                
-                let fakeSON = ["name" : "Flatiron School",
-                               "address" : "11 Broadway, New York, NY 10004",
-                               "Temperature" : ["celsius" : 22,
-                                                "fahrenheit" : 71]]
-                
-                do{
-                
-                let data = try NSJSONSerialization.dataWithJSONObject(fakeSON, options: NSJSONWritingOptions.PrettyPrinted)
-                    
-                    return OHHTTPStubsResponse(data: data, statusCode:200, headers: ["Content-Type": "application/json"])
-                
-                }catch{
-                print("\(error)")
-                }
-                
-            return OHHTTPStubsResponse()
-        }
         // Override point for customization after application launch.
         return true
     }
