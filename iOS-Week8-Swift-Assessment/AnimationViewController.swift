@@ -23,6 +23,21 @@ class AnimationViewController: UIViewController {
     @IBAction func animate(sender: AnyObject) {
         
         //Animate your square here
+        
+        let bottomConstraint : NSLayoutConstraint?
+        bottomConstraint = testView.bottomAnchor.constraintEqualToAnchor(self.view.bottomAnchor)
+        let rightConstraint : NSLayoutConstraint?
+        rightConstraint = testView.rightAnchor.constraintEqualToAnchor(self.view.rightAnchor)
+        
+        UIButton.animateWithDuration(0.5) { 
+            self.testViewTop.active = false
+            self.testViewLeft.active = false
+            bottomConstraint?.active = true
+            rightConstraint?.active = true
+            self.view.layoutIfNeeded()
+        }
+        
+        
     }
     
     func setUptestConstraints(){
